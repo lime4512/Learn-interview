@@ -1,3 +1,4 @@
+import { Card } from '../../components/card/Card'
 import styles from './home.module.scss'
 
 export const Home = () => {
@@ -11,7 +12,11 @@ export const Home = () => {
 						topics
 					</p>
 				</div>
-				<div className={styles['card-list']}></div>
+				<div className={styles['card-list']}>
+					<Card />
+					<Card />
+					<Card />
+				</div>
 			</div>
 		</section>
 	)
