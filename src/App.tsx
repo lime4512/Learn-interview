@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import { Header } from './components/header/Header'
-import { Home } from './pages/Home'
-import { LearnTech } from './pages/LearnTech'
-import { Questions } from './pages/Questions'
-import { Tests } from './pages/Tests'
+import { Home } from './pages/home/Home'
+import { LearnTech } from './pages/learntech/LearnTech'
+import { Questions } from './pages/questions/Questions'
+import { Tests } from './pages/tests/Tests'
 import { Container } from './components/container/Container'
 function App() {
 	return (

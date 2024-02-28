@@ -2,5 +2,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 10px 0px;
+	padding: 10px 10px;
+}
+
+.img-logo {
+	width: 50px;
+}
+
+header {
+	box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.1);
 }

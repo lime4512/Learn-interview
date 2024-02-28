@@ -1,0 +1,29 @@
+@import '../../style/variables.scss';
+.home {
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+}
+
+.content {
+}
+
+.content-text {
+	text-align: center;
+}
+
+.title {
+	background: $gradient;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: $title-font;
+	margin-bottom: 10px;
+}
+.text {
+	margin-bottom: 20px;
+}
+
+.card-list {
+	display: flex;
+	gap: 20px;
+}
