@@ -13,9 +13,24 @@ export const Home = () => {
 					</p>
 				</div>
 				<div className={styles['card-list']}>
-					<Card />
-					<Card />
-					<Card />
+					<Card
+						url='/learnTech'
+						img='./image/card/card-doc.svg'
+						title='Изучение технологий'
+						text='Здесь собрана база вопросов'
+					/>
+					<Card
+						url='/questions'
+						img='./image/card/card-doc-2.svg'
+						title='Вопросы к собеседованию'
+						text='Базовые вопросы для собеседования'
+					/>
+					<Card
+						url='/tests'
+						img='./image/card/card-doc-3.svg'
+						title='Тест по изученным вопросам'
+						text='Тест для проверки выученного'
+					/>
 				</div>
 			</div>
 		</section>

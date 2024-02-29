@@ -3,12 +3,20 @@
 .card {
 	border: 1px solid rgb(231, 228, 228);
 	padding: 30px;
+	max-width: 400px;
 	min-width: 400px;
 	border-radius: 25px;
 	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+	&:hover {
+		.title {
+			color: #4776e6;
+		}
+	}
 }
 
 .title {
+	transition: 0.4s;
 	margin-bottom: 20px;
 }
 

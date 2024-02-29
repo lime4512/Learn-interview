@@ -1,7 +1,9 @@
+import styles from './test.module.scss'
+
 export const Tests = () => {
 	return (
-		<section>
-			<h1>Tests</h1>
+		<section className={styles.tests}>
+			<h1>404 error</h1>
 		</section>
 	)
 }

@@ -1,18 +1,25 @@
+import { Link } from 'react-router-dom'
 import styles from './card.module.scss'
+import { FunctionComponent } from 'react'
 
-export const Card = () => {
+interface Props {
+	url: string
+	img: string
+	title: string
+	text: string
+}
+
+export const Card: FunctionComponent<Props> = ({ url, img, title, text }) => {
 	return (
-		<div className={styles.card}>
-			<img
-				src='./image/card/card-doc.svg'
-				alt=''
-				className={styles['img-card']}
-			/>
-			<h3 className={styles.title}>Изучение технологий</h3>
-			<p className={styles.text}>Здесь собрана база вопросов</p>
-			<div className={styles['block-btn']}>
-				<button className={styles['button-card']}>Посмотреть</button>
+		<Link to={url}>
+			<div className={styles.card}>
+				<img src={img} alt='' className={styles['img-card']} />
+				<h3 className={styles.title}>{title}</h3>
+				<p className={styles.text}>{text}</p>
+				<div className={styles['block-btn']}>
+					<button className={styles['button-card']}>Посмотреть</button>
+				</div>
 			</div>
-		</div>
+		</Link>
 	)
 }
