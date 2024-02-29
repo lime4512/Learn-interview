@@ -3,9 +3,10 @@
 	display: flex;
 	align-items: center;
 	gap: 20px;
+	font-weight: 600;
 	li {
 		&:hover {
-			color: rgb(128, 117, 117);
+			color: $blue;
 		}
 	}
 }

@@ -6,6 +6,8 @@ import { LearnTech } from './pages/learntech/LearnTech'
 import { Questions } from './pages/questions/Questions'
 import { Tests } from './pages/tests/Tests'
 import { Container } from './components/container/Container'
+import { BackLearn } from './pages/backLearn/BackLearn'
+import { FrontLearn } from './pages/frontLearn/FrontLearn'
 function App() {
 	return (
 		<BrowserRouter>
@@ -13,9 +15,11 @@ function App() {
 			<Container>
 				<Routes>
 					<Route path='/' element={<Home />} />
-					<Route path='/learnTech' element={<LearnTech />} />
+					<Route path='/learntech' element={<LearnTech />} />
 					<Route path='/questions' element={<Questions />} />
 					<Route path='/tests' element={<Tests />} />
+					<Route path='/learntech/backlearn' element={<BackLearn />} />
+					<Route path='/learntech/frontlearn' element={<FrontLearn />} />
 				</Routes>
 			</Container>
 		</BrowserRouter>

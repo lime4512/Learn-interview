@@ -1,0 +1,17 @@
+@import '../../style/variables.scss';
+
+.content-text {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.title {
+	background: $gradient;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: $title-font;
+	margin-bottom: 10px;
+}
+.text {
+	margin-bottom: 20px;
+}

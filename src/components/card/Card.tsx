@@ -17,7 +17,7 @@ export const Card: FunctionComponent<Props> = ({ url, img, title, text }) => {
 				<h3 className={styles.title}>{title}</h3>
 				<p className={styles.text}>{text}</p>
 				<div className={styles['block-btn']}>
-					<button className={styles['button-card']}>Посмотреть</button>
+					<button className={styles['button-card']}>Смотреть</button>
 				</div>
 			</div>
 		</Link>
