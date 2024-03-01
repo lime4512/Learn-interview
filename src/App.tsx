@@ -8,6 +8,9 @@ import { Tests } from './pages/tests/Tests'
 import { Container } from './components/container/Container'
 import { BackLearn } from './pages/backLearn/BackLearn'
 import { FrontLearn } from './pages/frontLearn/FrontLearn'
+import { JuniorPage } from './pages/frontLearn/junior/JuniorPage'
+import { MiddlePage } from './pages/frontLearn/middle/MiddlePage'
+import { SeniorPage } from './pages/frontLearn/senior/SeniorPage'
 function App() {
 	return (
 		<BrowserRouter>
@@ -20,6 +23,9 @@ function App() {
 					<Route path='/tests' element={<Tests />} />
 					<Route path='/learntech/backlearn' element={<BackLearn />} />
 					<Route path='/learntech/frontlearn' element={<FrontLearn />} />
+					<Route path='/learntech/frontlearn/junior' element={<JuniorPage />} />
+					<Route path='/learntech/frontlearn/middle' element={<MiddlePage />} />
+					<Route path='/learntech/frontlearn/senior' element={<SeniorPage />} />
 				</Routes>
 			</Container>
 		</BrowserRouter>

@@ -12,19 +12,19 @@ export const FrontLearn = () => {
 				/>
 				<div className={styles['card-list']}>
 					<Card
-						url=''
+						url='/learntech/frontlearn/junior'
 						img='/image/card/person_1.svg'
 						title='Junior'
 						text='База вопросов для начинающего'
 					/>
 					<Card
-						url=''
+						url='/learntech/frontlearn/middle'
 						img='/image/card/group_2.svg'
 						title='Middle'
 						text='База вопросов для знающего'
 					/>
 					<Card
-						url=''
+						url='/learntech/frontlearn/senior'
 						img='/image/card/groups_3.svg'
 						title='Senior'
 						text='База вопросов для опытного'

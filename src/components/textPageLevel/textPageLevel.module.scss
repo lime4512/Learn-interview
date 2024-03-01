@@ -1,0 +1,15 @@
+@import '../../style/variables.scss';
+.content {
+	margin-bottom: 10px;
+	.title {
+		color: $dark-blue;
+		border-bottom: solid $gray 1px;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+
+	.text {
+		font-size: 15px;
+		color: $light-gray;
+	}
+}
