@@ -1,7 +1,7 @@
 import { FunctionComponent } from 'react'
 import styles from './textPageLevel.module.scss'
 interface Props {
-	title: string
+	title?: string | undefined
 	text?: string
 }
 
