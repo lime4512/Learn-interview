@@ -16,7 +16,7 @@ export const ListLevel: FunctionComponent<Props> = ({ data }) => {
 		<div className={styles.content}>
 			<ul>
 				{data.map(item => (
-					<Level title={item.title} text={item.text} url='' />
+					<Level title={item.title} text={item.text} url={item.url} />
 				))}
 			</ul>
 		</div>
