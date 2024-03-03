@@ -1,6 +1,7 @@
 import styles from './frontLearn.module.scss'
 import { Card } from '../../components/card/Card'
 import { TitleText } from '../../components/titleText/TitleText'
+import { NavBack } from '../../components/navBack/NavBack'
 
 export const FrontLearn = () => {
 	return (
@@ -30,6 +31,7 @@ export const FrontLearn = () => {
 						text='База вопросов для опытного'
 					/>
 				</div>
+				<NavBack />
 			</div>
 		</section>
 	)

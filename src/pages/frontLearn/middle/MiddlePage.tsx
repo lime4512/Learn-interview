@@ -1,4 +1,5 @@
 import { ListLevel } from '../../../components/level/ListLevel'
+import { NavBack } from '../../../components/navBack/NavBack'
 import { TextPageLevel } from '../../../components/textPageLevel/TextPageLevel'
 import styles from './middlePage.module.scss'
 export const MiddlePage = () => {
@@ -31,6 +32,7 @@ export const MiddlePage = () => {
 				text='Здесь нужно выбрать уровень изучения Middle с каждым высшим уровнем все более сложные темы'
 			/>
 			<ListLevel data={data} />
+			<NavBack />
 		</div>
 	)
 }

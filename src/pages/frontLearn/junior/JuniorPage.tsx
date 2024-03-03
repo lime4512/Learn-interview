@@ -1,4 +1,5 @@
 import { ListLevel } from '../../../components/level/ListLevel'
+import { NavBack } from '../../../components/navBack/NavBack'
 import { TextPageLevel } from '../../../components/textPageLevel/TextPageLevel'
 import styles from './juniorPage.module.scss'
 export const JuniorPage = () => {
@@ -26,6 +27,7 @@ export const JuniorPage = () => {
 				text='Здесь нужно выбрать уровень изучения Junior с каждым высшим уровнем все более сложные темы'
 			/>
 			<ListLevel data={data} />
+			<NavBack />
 		</div>
 	)
 }

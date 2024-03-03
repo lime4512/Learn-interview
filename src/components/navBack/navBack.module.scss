@@ -1,0 +1,17 @@
+.content {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.btnBack {
+	background-size: 200% auto;
+	border-radius: 25px;
+	padding: 10px 20px;
+	color: white;
+	background-image: linear-gradient(90deg, #4776e6 0, #8e54e9 51%, #4776e6);
+
+	&:hover {
+		background-size: 500%;
+	}
+}

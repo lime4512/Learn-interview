@@ -1,6 +1,7 @@
 import styles from './learnTech.module.scss'
 import { Card } from '../../components/card/Card'
 import { TitleText } from '../../components/titleText/TitleText'
+import { NavBack } from '../../components/navBack/NavBack'
 export const LearnTech = () => {
 	return (
 		<section className={styles.learnTech}>
@@ -23,6 +24,7 @@ export const LearnTech = () => {
 						text='Вопросы связанные с бэкендом'
 					/>
 				</div>
+				<NavBack />
 			</div>
 		</section>
 	)
