@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom'
 export const JuniorLevelPage = () => {
 	const { level } = useParams()
 
-	console.log(level != undefined ? levelData[level][0].title : '')
+	console.log(level)
 
 	return (
 		<div className={styles.container}>
@@ -16,7 +16,13 @@ export const JuniorLevelPage = () => {
 			/>
 			<ul className={styles.list}>
 				{level != undefined
-					? levelData[level][0].tech.map(item => <Level title={item} url=''/>)
+					? levelData[level][0].tech.map(item => (
+							<Level
+								title={item}
+								url={`${level}/${item}`}
+								key={Math.random()}
+							/>
+					  ))
 					: ''}
 			</ul>
 		</div>

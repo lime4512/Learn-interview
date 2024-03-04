@@ -12,7 +12,7 @@ import { JuniorPage } from './pages/frontLearn/junior/JuniorPage'
 import { MiddlePage } from './pages/frontLearn/middle/MiddlePage'
 import { SeniorPage } from './pages/frontLearn/senior/SeniorPage'
 import { JuniorLevelPage } from './pages/frontLearn/junior/JuniorLevelPage'
-
+import { JuniorTechPage } from './pages/frontLearn/junior/JuniorTechPage'
 
 function App() {
 	return (
@@ -31,7 +31,7 @@ function App() {
 						path='/learntech/frontlearn/junior/:level'
 						element={<JuniorLevelPage />}
 					/>
-
+					<Route path='/learntech/frontlearn/junior/:level/:tech'  element={<JuniorTechPage/>}/>
 					<Route path='/learntech/frontlearn/middle' element={<MiddlePage />} />
 					<Route path='/learntech/frontlearn/senior' element={<SeniorPage />} />
 				</Routes>

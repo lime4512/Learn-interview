@@ -16,9 +16,9 @@ export const levelData: LevelType = {
 		{
 			title: 'Front-end Junior 2 level',
 			tech: [
-				'Html',
-				'Css',
-				'JavaScript',
+				'Html-2',
+				'Css-2',
+				'JavaScript-2',
 				'DOM',
 				'Тестирование',
 				'Работа с датой',
@@ -32,10 +32,10 @@ export const levelData: LevelType = {
 			tech: [
 				'Системы сборки',
 				'Работа с данными',
-				'Html',
-				'Css',
-				'JavaScript',
-				'React',
+				'Html-3',
+				'Css-3',
+				'JavaScript-4',
+				'React-2',
 				'Git',
 				'API',
 				'Тестирование',
