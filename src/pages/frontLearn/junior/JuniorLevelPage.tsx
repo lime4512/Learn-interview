@@ -7,8 +7,6 @@ import { useParams } from 'react-router-dom'
 export const JuniorLevelPage = () => {
 	const { level } = useParams()
 
-	console.log(level)
-
 	return (
 		<div className={styles.container}>
 			<TextPageLevel
